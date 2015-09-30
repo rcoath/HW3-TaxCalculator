@@ -9,16 +9,19 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Tax Results</title>
     </head>
     <%
-    int age = Interger.parseInt(request.getParameter("age");
+        
+    int hoursWorked = integer 
     %>
+    
     <body>
         <h1>User Information</h1>
         <table border="1">
             <tbody>
-            <td> </td>
+                
+            
             
             </tbody>
             
