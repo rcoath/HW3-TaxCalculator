@@ -9,33 +9,36 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-         <link rel="stylesheet" type="text/css" href="TaxCalc/style.css" />
+         <link rel="stylesheet" type="text/css" href="style.css" />
         <title>Tax Calculator</title>
     </head>
+    
     <body>
         <h1>Tax Calculator</h1>
         
-        <form>
-        <table border="1">
+        <form name="taxCalc" action="results.jsp" method="post">
+            
+        <table>
             <tbody>
+                
               <tr>
               <td>Hours Worked:</td>
-              <td><input type="text" name="hours worked" value="" size="50"></td> 
+              <td><input type="int" name="hoursWorked" value="" size="50"></td> 
               </tr>
               
               <tr>
               <td>Hourly Pay:</td>
-              <td><input type="text" name="hours worked" value="" size="50"></td> 
+              <td><input type="int" name="hourlyPay" value="" size="50"></td> 
               </tr>
               
               <tr>
               <td>Pre-tax Deduct:</td>
-              <td><input type="text" name="hours worked" value="" size="50"></td> 
+              <td><input type="int" name="pre" value="" size="50"></td> 
               </tr>
               
               <tr>
               <td>Post-tax Deduct:</td>
-              <td><input type="text" name="hours worked" value="" size="50"></td> 
+              <td><input type="int" name="post" value="" size="50"></td> 
               </tr>
               
         </table>
