@@ -28,17 +28,17 @@
               
               <tr>
               <td>Hourly Pay:</td>
-              <td><input type="int" name="hourlyPay" value="" size="50"></td> 
+              <td><input type="int" name="payRate" value="" size="50"></td> 
               </tr>
               
               <tr>
               <td>Pre-tax Deduct:</td>
-              <td><input type="int" name="pre" value="" size="50"></td> 
+              <td><input type="int" name="preTax" value="" size="50"></td> 
               </tr>
               
               <tr>
               <td>Post-tax Deduct:</td>
-              <td><input type="int" name="post" value="" size="50"></td> 
+              <td><input type="int" name="postTax" value="" size="50"></td> 
               </tr>
               
         </table>

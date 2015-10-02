@@ -1,7 +1,7 @@
 
 body {
     color: white;
-    background-color: #18CC9C;
+    background-color: white;
     Font-size:14
 }
 
@@ -11,5 +11,10 @@ h1 {
         font-style:italic; font-weight:bold;
 }
 
-
+table{
+    background-color: #18CC9C;
+    padding: 0;
+    border: 0;
+    
+}
 
